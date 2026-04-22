@@ -35,7 +35,7 @@ print(f"My name is: {name} {middle_name} {last_name} my age is: {age}")
 # no need for converting with str()
 
 name = "Burnt"
-age = "2"
+age = 2
 middle_name = "Buttery"
 last_name = "Toast"
 found = True 
@@ -43,3 +43,24 @@ found = True
 print("I: " + name + " " + middle_name + " " + last_name + " pieces: " + str(age)  + ".")
 
 print(f"I: {name} {middle_name} {last_name} pieces: {age}")
+
+#type functions 
+print(type(name))
+print(type(age))
+print(type(True))
+
+# Casting (Changing data types)
+print(20+ int("20"))
+print(20+ age)
+print(20+ 2.98)
+
+# Input Function
+user_name = input("Enter your name: ")
+print(f"Hello, {user_name}")
+
+# input() alwyas returns a string 
+print(type(input("Enter your age: ")))
+
+new_age = int(input("Enter your age: "))
+print(age + new_age)
+
