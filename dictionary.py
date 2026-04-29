@@ -49,7 +49,7 @@ print("Student", report_card["subject"])
 
 Average = sum(report_card["grade"])/ len(report_card["grade"])
 
-Average = int(input("calculate results"))
+# Average = int(input("calculate results"))
 
 if  Average >= 90:
     print("Excellent")
@@ -65,5 +65,18 @@ print(report_card)
 
 
 
-
+print("---------------------")
 # Homework
+work = {
+    "name": "Rife",
+    "job": "Full Stack",
+    "skill": "Fast Talker",
+}
+print(work)
+
+work ["title"] = "Grunt"
+print(work)
+
+work.pop("title") 
+print(work)
+
